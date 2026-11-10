@@ -2,6 +2,9 @@ def testfunc(a, b):
     for cycle in range(a):
         print(b)
 
+def func1(a, x):
+    print(a, x)
+
 user_input = input("Write your name: ")
 
 while True:
@@ -11,3 +14,4 @@ while True:
     else:
         print(f"""{user_input}, ok""")
         testfunc(1000, "lol")
+        
