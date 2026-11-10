@@ -1,3 +1,7 @@
+def testfunc(a, b):
+    for cycle in range(a):
+        print(b)
+
 user_input = input("Write your name: ")
 
 while True:
@@ -6,4 +10,4 @@ while True:
         print(f"""{user_input}, invalid answer. try again""")
     else:
         print(f"""{user_input}, ok""")
-        break
+        testfunc(1000, "lol")
